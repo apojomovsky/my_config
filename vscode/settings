@@ -1,0 +1,28 @@
+{
+    // Diable new document at startup
+    "workbench.startupEditor": "none",
+
+    // File navigator behavior
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": true,
+
+    // Enable this if the "_" are not shown on the embedded console
+    //"window.zoomLevel": -0.001,
+
+    // Enable 80 characters rule
+    "editor.rulers": [80],
+
+
+    // Disable telemetry
+    "telemetry.enableTelemetry": false,
+
+    "workbench.settings.enableNaturalLanguageSearch": false,
+
+    // Enable Ctrl+F when vim mode is enabled
+    "vim.handleKeys":{
+        "<C-f>": false
+    },
+
+    // Disable minimap
+    "editor.minimap.enabled": false,
+}

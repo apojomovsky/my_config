@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/e65e91a/
+battery	i3/i3blocks/i3blocks.conf	/^[battery]$/;"	s
+capability	i3/i3blocks/volume	/^capability() { # Return "Capture" if the device is a capture device$/;"	f
+check_opts	i3/i3blocks/openvpn	/^sub check_opts {$/;"	s
+command	i3/i3blocks/i3blocks.conf	/^command=\/opt\/i3blocks-contrib\/$BLOCK_NAME\/$BLOCK_NAME$/;"	k
+command	i3/i3blocks/i3blocks.conf	/^command=date '+%H:%M:%S'$/;"	k	section:time
+format	i3/i3blocks/volume	/^format() {$/;"	f
+help	i3/i3blocks/cpu_usage	/^sub help {$/;"	s
+help	i3/i3blocks/keyindicator	/^sub help {$/;"	s
+help	i3/i3blocks/openvpn	/^sub help {$/;"	s
+help	i3/i3blocks/temperature	/^sub help {$/;"	s
+instance	i3/i3blocks/i3blocks.conf	/^instance=CAPS$/;"	k	section:keyindicator
+interval	i3/i3blocks/i3blocks.conf	/^interval=1$/;"	k	section:key_layout
+interval	i3/i3blocks/i3blocks.conf	/^interval=1$/;"	k	section:time
+interval	i3/i3blocks/i3blocks.conf	/^interval=10$/;"	k	section:temperature
+interval	i3/i3blocks/i3blocks.conf	/^interval=30$/;"	k	section:battery
+interval	i3/i3blocks/i3blocks.conf	/^interval=3600$/;"	k	section:rofi-calendar
+interval	i3/i3blocks/i3blocks.conf	/^interval=once$/;"	k	section:keyindicator
+interval	i3/i3blocks/i3blocks.conf	/^interval=once$/;"	k	section:monitor_manager
+key_layout	i3/i3blocks/i3blocks.conf	/^[key_layout]$/;"	s
+keyindicator	i3/i3blocks/i3blocks.conf	/^[keyindicator]$/;"	s
+label	i3/i3blocks/i3blocks.conf	/^label=KEY$/;"	k	section:key_layout
+label	i3/i3blocks/i3blocks.conf	/^label=TEMP$/;"	k	section:temperature
+label	i3/i3blocks/i3blocks.conf	/^label=$/;"	k	section:rofi-calendar
+markup	i3/i3blocks/i3blocks.conf	/^markup=none$/;"	k
+markup	i3/i3blocks/i3blocks.conf	/^markup=pango$/;"	k	section:battery
+markup	i3/i3blocks/i3blocks.conf	/^markup=pango$/;"	k	section:keyindicator
+monitor_manager	i3/i3blocks/i3blocks.conf	/^[monitor_manager]$/;"	s
+print_output	i3/i3blocks/openvpn	/^sub print_output {$/;"	s
+rofi-calendar	i3/i3blocks/i3blocks.conf	/^[rofi-calendar]$/;"	s
+separator_block_width	i3/i3blocks/i3blocks.conf	/^separator_block_width=15$/;"	k
+signal	i3/i3blocks/i3blocks.conf	/^signal=11$/;"	k	section:keyindicator
+temperature	i3/i3blocks/i3blocks.conf	/^[temperature]$/;"	s
+time	i3/i3blocks/i3blocks.conf	/^[time]$/;"	s
+volume	i3/i3blocks/volume	/^volume() {$/;"	f
